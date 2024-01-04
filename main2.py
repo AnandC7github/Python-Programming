@@ -2,3 +2,10 @@
 from lib import dog
 
 dog.bark()
+
+
+#or 
+
+from lib.dog import bark
+
+dog.bark()
